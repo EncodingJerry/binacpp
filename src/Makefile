@@ -1,6 +1,6 @@
 
 
-libcurl_dir=../lib/libcurl-7.56.0
+libcurl_dir=../lib/libcurl-7.69.1
 libcurl_include=${libcurl_dir}/include
 libcurl_lib=${libcurl_dir}/lib
 
@@ -9,13 +9,13 @@ jsoncpp_include=${jsoncpp_dir}/include
 jsoncpp_src=${jsoncpp_dir}/src
 
 
-libwebsockets_dir=../lib/libwebsockets-2.4.0
+libwebsockets_dir=../lib/libwebsockets-3.2.2
 libwebsockets_include=${libwebsockets_dir}/include
 libwebsockets_lib=${libwebsockets_dir}/lib
 
 
 build_dir=../lib/libbinacpp/lib
-objects=$(build_dir)/jsoncpp.o $(build_dir)/binacpp_utils.o $(build_dir)/binacpp_logger.o $(build_dir)/binacpp.o  $(build_dir)/binacpp_websocket.o
+objects=$(build_dir)/binacpp_utils.o $(build_dir)/binacpp_logger.o $(build_dir)/binacpp.o  $(build_dir)/binacpp_websocket.o
 
 build_include=../lib/libbinacpp/include
 

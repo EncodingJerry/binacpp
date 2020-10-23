@@ -1,9 +1,9 @@
 
 
-libcurl_dir=../lib/libcurl-7.56.0
+libcurl_dir=../lib/libcurl-7.69.1
 libcurl_lib=${libcurl_dir}/lib
 
-libwebsockets_dir=../lib/libwebsockets-2.4.0
+libwebsockets_dir=../lib/libwebsockets-3.2.2
 libwebsockets_lib=${libwebsockets_dir}/lib
 
 libbinacpp_dir=../lib/libbinacpp
