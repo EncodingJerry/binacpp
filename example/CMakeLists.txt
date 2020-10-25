@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.0.0)
 
 
-include_directories (../src)
+include_directories (../lib)
 set(exampleBins example_aggTrades example example_depthCache example_klines example_template example_userStream example_wapi)
 foreach(binName ${exampleBins})
     add_executable(${binName} ${binName}.cpp)

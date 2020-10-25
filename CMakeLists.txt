@@ -21,5 +21,6 @@ if(NOT ZMQ)
   message(FATAL_ERROR "ZMQ library libzmq not found")
 endif()
 
-add_subdirectory (src)
+add_subdirectory (lib)
 add_subdirectory (example)
+add_subdirectory (src)
