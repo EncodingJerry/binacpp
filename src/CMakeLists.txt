@@ -17,11 +17,5 @@ set_target_properties(binacpp PROPERTIES VERSION ${PROJECT_VERSION})
 set_target_properties(binacpp PROPERTIES SOVERSION 1)
 set_target_properties(binacpp PROPERTIES PUBLIC_HEADER "binacpp.h;binacpp_utils.h")
 
-
-find_package(CURL)
-
-pkg_check_modules(JSONCPP REQUIRED)
 link_libraries(${JSONCPP_LIBRARIES})
-
-pkg_check_modules(WebSockets REQUIRED)
 link_libraries(${WebSockets_LIBRARIES})

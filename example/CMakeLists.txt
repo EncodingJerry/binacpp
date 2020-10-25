@@ -11,3 +11,7 @@ foreach(binName ${exampleBins})
     target_link_libraries(${binName} curl)
     target_link_libraries(${binName} websockets)
 endforeach()
+
+
+add_executable(example_zmq example_zmq.cpp)
+target_link_libraries(example_zmq zmq pthread)
