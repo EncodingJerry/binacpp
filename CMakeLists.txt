@@ -1,5 +1,6 @@
 cmake_minimum_required (VERSION 2.8.11)
 project (BinaceTrader)
+set(CMAKE_CXX_STANDARD 17)
 
 find_package(CURL 7.69.1 REQUIRED)
 # rpm -sq cppzmq-devel
